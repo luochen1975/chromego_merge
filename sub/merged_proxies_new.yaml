@@ -317,27 +317,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: Hong Kong_Sheung Shui_trojan_1020
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 443
-  server: 58.152.110.83
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: United States_None_trojan_1021
-  network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: 2053
-  server: nop-55q.pages.dev
-  skip-cert-verify: false
-  sni: NOp-55q.pAgEs.dEv
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: NOp-55q.pAgEs.dEv
-    path: /trGPZDfetEwuO25SAs
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_111
@@ -598,27 +577,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: Hong Kong_Sheung Shui_trojan_1130
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 443
-  server: 58.152.110.83
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: United States_None_trojan_1131
-  network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: 2053
-  server: nop-55q.pages.dev
-  skip-cert-verify: false
-  sni: NOp-55q.pAgEs.dEv
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: NOp-55q.pAgEs.dEv
-    path: /trGPZDfetEwuO25SAs
 - name: The Netherlands_Amsterdam_hy_0
   type: hysteria
   server: 109.104.153.91
@@ -738,8 +696,6 @@ proxy-groups:
   - Hong Kong_None_vmess_1017
   - Hong Kong_Hong Kong_vmess_1018
   - China_None_trojan_1019
-  - Hong Kong_Sheung Shui_trojan_1020
-  - United States_None_trojan_1021
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -769,8 +725,6 @@ proxy-groups:
   - Hong Kong_None_vmess_1127
   - Hong Kong_Hong Kong_vmess_1128
   - China_None_trojan_1129
-  - Hong Kong_Sheung Shui_trojan_1130
-  - United States_None_trojan_1131
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -812,8 +766,6 @@ proxy-groups:
   - Hong Kong_None_vmess_1017
   - Hong Kong_Hong Kong_vmess_1018
   - China_None_trojan_1019
-  - Hong Kong_Sheung Shui_trojan_1020
-  - United States_None_trojan_1021
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -843,8 +795,6 @@ proxy-groups:
   - Hong Kong_None_vmess_1127
   - Hong Kong_Hong Kong_vmess_1128
   - China_None_trojan_1129
-  - Hong Kong_Sheung Shui_trojan_1130
-  - United States_None_trojan_1131
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
