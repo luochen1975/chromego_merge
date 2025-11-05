@@ -111,9 +111,9 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hysteria_71
+- name: France_None_hysteria_71
   type: hysteria
-  server: 62.210.127.217
+  server: 62.210.10.186
   port: 50011
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -123,9 +123,9 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hysteria_81
+- name: Unknown_hysteria_81
   type: hysteria
-  server: 62.210.127.217
+  server: 2001:bc8:32d7:158::2
   port: 50011
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -577,10 +577,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
+- name: China_Guangzhou_trojan_1129
+  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
+  port: 20021
+  server: oss-cn-shanghai.letssepub.com
+  skip-cert-verify: false
+  sni: dingding-doc.com
+  type: trojan
+  udp: true
 - name: The Netherlands_Amsterdam_hy_0
   type: hysteria
-  server: 109.104.153.91
-  port: 37519
+  server: 109.104.154.97
+  port: 48429
   ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 1000
@@ -593,8 +601,8 @@ proxies:
   - h3
 - name: The Netherlands_Amsterdam_hy_1
   type: hysteria
-  server: 109.104.153.91
-  port: 37519
+  server: 109.104.154.97
+  port: 48429
   ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 1000
@@ -607,8 +615,8 @@ proxies:
   - h3
 - name: The Netherlands_Amsterdam_hy_2
   type: hysteria
-  server: 109.104.153.91
-  port: 37519
+  server: 109.104.154.97
+  port: 48429
   ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 1000
@@ -621,8 +629,8 @@ proxies:
   - h3
 - name: The Netherlands_Amsterdam_hy_3
   type: hysteria
-  server: 109.104.153.91
-  port: 37519
+  server: 109.104.154.97
+  port: 48429
   ports: 10000-20000
   auth_str: dongtaiwang.com
   up: 1000
@@ -674,8 +682,8 @@ proxy-groups:
   - Unknown_tuic_41
   - Unknown_hysteria2_51
   - Unknown_hysteria_61
-  - France_Paris_hysteria_71
-  - France_Paris_hysteria_81
+  - France_None_hysteria_71
+  - Unknown_hysteria_81
   - Unknown_hysteria_91
   - United Kingdom_London_ss_101
   - China_None_vmess_102
@@ -724,6 +732,7 @@ proxy-groups:
   - China_None_trojan_1126
   - China_Jinan_vmess_1127
   - United Kingdom_None_vmess_1128
+  - China_Guangzhou_trojan_1129
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
@@ -743,8 +752,8 @@ proxy-groups:
   - Unknown_tuic_41
   - Unknown_hysteria2_51
   - Unknown_hysteria_61
-  - France_Paris_hysteria_71
-  - France_Paris_hysteria_81
+  - France_None_hysteria_71
+  - Unknown_hysteria_81
   - Unknown_hysteria_91
   - United Kingdom_London_ss_101
   - China_None_vmess_102
@@ -793,6 +802,7 @@ proxy-groups:
   - China_None_trojan_1126
   - China_Jinan_vmess_1127
   - United Kingdom_None_vmess_1128
+  - China_Guangzhou_trojan_1129
   - The Netherlands_Amsterdam_hy_0
   - The Netherlands_Amsterdam_hy_1
   - The Netherlands_Amsterdam_hy_2
