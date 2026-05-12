@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -148,7 +148,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_1016
+  name: Hong Kong_Central_vmess_1016
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -539,7 +539,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: Taiwan_Chang-hua_vmess_1133
+  name: Taiwan_Yuanlin_vmess_1133
   network: tcp
   port: 30813
   server: v13.zgtfqs.click
@@ -591,7 +591,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
-  name: United Kingdom_None_vmess_1137
+  name: Indonesia_Jakarta_vmess_1137
   port: 30806
   server: v6.hdacd.com
   skip-cert-verify: false
@@ -773,7 +773,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
-  name: United States_None_vmess_1152
+  name: United Kingdom_None_vmess_1152
   port: 30845
   server: v45.hdacd.com
   type: vmess
@@ -1306,7 +1306,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_1196
+  name: Hong Kong_Central_vmess_1196
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -1421,7 +1421,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_11110
+  name: Hong Kong_Central_vmess_11110
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -1765,7 +1765,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Kowloon_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_None_trojan_103
   - Hong Kong_None_trojan_104
   - Japan_Honcho_trojan_105
@@ -1779,7 +1779,7 @@ proxy-groups:
   - United States_None_trojan_1013
   - United Kingdom_None_vmess_1014
   - United Kingdom_None_vmess_1015
-  - Hong Kong_Kowloon_vmess_1016
+  - Hong Kong_Central_vmess_1016
   - United Kingdom_None_vmess_1017
   - United Kingdom_None_vmess_1018
   - Unknown_vmess_111
@@ -1814,11 +1814,11 @@ proxy-groups:
   - China_None_vmess_1130
   - Taiwan_Taipei_trojan_1131
   - Taiwan_Pingtung City_vmess_1132
-  - Taiwan_Chang-hua_vmess_1133
+  - Taiwan_Yuanlin_vmess_1133
   - Japan_Tokyo_trojan_1134
   - Japan_None_trojan_1135
   - Japan_Osaka_trojan_1136
-  - United Kingdom_None_vmess_1137
+  - Indonesia_Jakarta_vmess_1137
   - United States_None_trojan_1138
   - Japan_Tokyo_trojan_1139
   - Japan_None_trojan_1140
@@ -1833,7 +1833,7 @@ proxy-groups:
   - Singapore_Singapore_trojan_1149
   - Singapore_None_trojan_1150
   - Singapore_Singapore_trojan_1151
-  - United States_None_vmess_1152
+  - United Kingdom_None_vmess_1152
   - Singapore_Singapore_trojan_1153
   - Singapore_Singapore_trojan_1154
   - Germany_None_trojan_1155
@@ -1877,7 +1877,7 @@ proxy-groups:
   - Kazakhstan_Astana_trojan_1193
   - None_None_trojan_1194
   - United States_None_ss_1195
-  - Hong Kong_Kowloon_vmess_1196
+  - Hong Kong_Central_vmess_1196
   - Hong Kong_None_trojan_1197
   - Hong Kong_None_trojan_1198
   - Japan_Honcho_trojan_1199
@@ -1891,7 +1891,7 @@ proxy-groups:
   - United States_None_trojan_11107
   - United Kingdom_None_vmess_11108
   - United Kingdom_None_vmess_11109
-  - Hong Kong_Kowloon_vmess_11110
+  - Hong Kong_Central_vmess_11110
   - United Kingdom_None_vmess_11111
   - United Kingdom_None_vmess_11112
   - Singapore_Singapore_trojan_11113
@@ -1924,7 +1924,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Kowloon_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_None_trojan_103
   - Hong Kong_None_trojan_104
   - Japan_Honcho_trojan_105
@@ -1938,7 +1938,7 @@ proxy-groups:
   - United States_None_trojan_1013
   - United Kingdom_None_vmess_1014
   - United Kingdom_None_vmess_1015
-  - Hong Kong_Kowloon_vmess_1016
+  - Hong Kong_Central_vmess_1016
   - United Kingdom_None_vmess_1017
   - United Kingdom_None_vmess_1018
   - Unknown_vmess_111
@@ -1973,11 +1973,11 @@ proxy-groups:
   - China_None_vmess_1130
   - Taiwan_Taipei_trojan_1131
   - Taiwan_Pingtung City_vmess_1132
-  - Taiwan_Chang-hua_vmess_1133
+  - Taiwan_Yuanlin_vmess_1133
   - Japan_Tokyo_trojan_1134
   - Japan_None_trojan_1135
   - Japan_Osaka_trojan_1136
-  - United Kingdom_None_vmess_1137
+  - Indonesia_Jakarta_vmess_1137
   - United States_None_trojan_1138
   - Japan_Tokyo_trojan_1139
   - Japan_None_trojan_1140
@@ -1992,7 +1992,7 @@ proxy-groups:
   - Singapore_Singapore_trojan_1149
   - Singapore_None_trojan_1150
   - Singapore_Singapore_trojan_1151
-  - United States_None_vmess_1152
+  - United Kingdom_None_vmess_1152
   - Singapore_Singapore_trojan_1153
   - Singapore_Singapore_trojan_1154
   - Germany_None_trojan_1155
@@ -2036,7 +2036,7 @@ proxy-groups:
   - Kazakhstan_Astana_trojan_1193
   - None_None_trojan_1194
   - United States_None_ss_1195
-  - Hong Kong_Kowloon_vmess_1196
+  - Hong Kong_Central_vmess_1196
   - Hong Kong_None_trojan_1197
   - Hong Kong_None_trojan_1198
   - Japan_Honcho_trojan_1199
@@ -2050,7 +2050,7 @@ proxy-groups:
   - United States_None_trojan_11107
   - United Kingdom_None_vmess_11108
   - United Kingdom_None_vmess_11109
-  - Hong Kong_Kowloon_vmess_11110
+  - Hong Kong_Central_vmess_11110
   - United Kingdom_None_vmess_11111
   - United Kingdom_None_vmess_11112
   - Singapore_Singapore_trojan_11113
